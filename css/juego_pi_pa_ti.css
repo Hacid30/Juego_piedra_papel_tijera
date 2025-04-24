@@ -1,0 +1,66 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(243, 99, 99);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    color: #333;
+}
+
+.seleccionar {
+    display: flex;
+    gap: 10px;
+}
+
+select {
+    padding: 1px 20px;
+    border-radius: 10px;
+    height: 25px;
+    margin: auto 2px;
+}
+
+.escoger {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+button {
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 40px;
+    width: 70px;
+    height: 50px;
+    background-color: rgba(0, 81, 255, 0.753);
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+button:hover {
+    scale: 1.1;
+    background-color: rgb(10, 76, 219);
+}
+
+.resultado {
+    text-align: center;
+}
+
+
+

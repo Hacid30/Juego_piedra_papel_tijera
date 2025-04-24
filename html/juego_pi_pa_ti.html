@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel o tijera</title>
+    <link rel="stylesheet" href="../css/juego_pi_pa_ti.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Piedra, Papel o Tijera</h1>
+        <div class="seleccionar">
+            <p>Por cuantas partidas: </p>
+            <select id="selector">
+                <option value="1">1 partida</option>
+                <option value="2">2 partidas</option>
+                <option value="3">3 partidas</option>
+                <option value="4">4 partidas</option>
+                <option value="5">5 partidas</option>
+        </select>
+        </div>
+        <div class="escoger">
+            <button id="tijeras"> ✂️ </button>
+            <button id="piedra"> 🪨 </button>
+            <button id="papel"> 📄 </button>
+        </div>
+        <div class="resultado">
+            <p id="resultado"> Elige una opcion para comenzar </p>
+            <p id="puntaje" >Victoria: 0 | Derrota: 0 | Empate: 0 </p>
+        </div>
+    </div>
+    <script src="../js/juego_pi_pa_ti.js"></script>
+</body>
+</html>
