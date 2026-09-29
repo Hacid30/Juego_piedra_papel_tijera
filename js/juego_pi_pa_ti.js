@@ -53,7 +53,7 @@ function jugar(persona){
         resultado = "empate";
         empate++;
     } else if(persona === "tijeras" && escogerPc === "papel" ||
-    persona === "piedra" && escogerPc=== "tijera" || persona === "papel" && escogerPc === "piedra"){
+    persona === "piedra" && escogerPc=== "tijeras" || persona === "papel" && escogerPc === "piedra"){
         resultado = "¡Ganaste!";
         victoria++;
         partidasGanadasUsuario++;
